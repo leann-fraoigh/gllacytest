@@ -1509,6 +1509,7 @@ img {
   -ms-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
 }
 
 select::-ms-expand {
