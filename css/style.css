@@ -1382,7 +1382,7 @@ img {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   top: 50%;
-
+  right: 100px;
   width: 252px;
   max-height: 350px;
   margin: 0;
@@ -1527,7 +1527,7 @@ visibility: hidden;
 display: none;
 pointer-events: none;
 position: absolute;
-right: 100px;
+
 }
 
 .filter select:hover,
