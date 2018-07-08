@@ -1360,16 +1360,22 @@ img {
   background-size: 1200px 430px;
 }
 
-.contacts .container {
+/*.contacts .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-}
+}*/
 
 .contacts .container {
+  position: absolute;
+    -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+
   font-size: 14px;
   line-height: 20px;
 
@@ -1378,11 +1384,11 @@ img {
 
 .contacts-info {
   position: absolute;
-  -webkit-transform: translateY(-50%);
+/*  -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  top: 50%;
-  right: 100px;
+  top: 50%;*/
+  right: 27px;
   width: 252px;
   max-height: 350px;
   margin: 0;
