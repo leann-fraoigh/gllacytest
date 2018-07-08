@@ -1370,12 +1370,7 @@ img {
 }*/
 
 .contacts .container {
-  position: absolute;
-/*    -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);*/
-  top: 50%;
-  left: 73px;
+  position: relative;
 
   font-size: 14px;
   line-height: 20px;
@@ -1388,7 +1383,7 @@ img {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-/*  top: 50%;*/
+  top: -214px;
   right: 27px;
   width: 252px;
   max-height: 350px;
