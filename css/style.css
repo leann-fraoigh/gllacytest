@@ -688,7 +688,7 @@ img {
   top: 36px;
   right: 0;
 
-  display: none;
+  display: block;
 
   z-index: 150;
 }
