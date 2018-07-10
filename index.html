@@ -36,7 +36,7 @@
               <ul class="modal theme-light user-navigation-search-popup popup">
                 <li>
                   <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-                    <label class="visually-hidden" for="search-field">Поиск</label>
+                    <label class="label label-hidden visually-hidden" for="search-field">Поиск</label>
                     <input class="input" id="search-field" type="search" name="search" placeholder="Что ищем?" size="30">
                   </form>
                 </li>
@@ -48,11 +48,11 @@
                   <form class="login-form" method="post" action="https://echo.htmlacademy.ru">
                     <h2 class="visually-hidden">Форма авторизации</h2>
                     <p>
-                      <label class="visually-hidden" for="login-email">Ваша электронная почта</label>
+                      <label class="label label-hidden visually-hidden" for="login-email">Ваша электронная почта</label>
                       <input class="input" id="login-email" type="email" name="email" placeholder="Электронная почта">
                     </p>
                     <p>
-                      <label class="visually-hidden" for="login-password">Ваш пароль</label>
+                      <label class="label label-hidden visually-hidden" for="login-password">Ваш пароль</label>
                       <input class="input" id="login-password" type="password" name="password" placeholder="Пароль">
                     </p>
                     <button class="button" type="submit">Войти</button>
@@ -77,9 +77,9 @@
 
         <section class="slider wrapper">
           <div class="slider-controls">
-            <label for="product-1" tabindex="0">Первый</label>
-            <label for="product-2" tabindex="0">Второй</label>
-            <label for="product-3" tabindex="0">Третий</label>
+            <label class="label" for="product-1" tabindex="0">Первый</label>
+            <label class="label" for="product-2" tabindex="0">Второй</label>
+            <label class="label" for="product-3" tabindex="0">Третий</label>
           </div>
           <ul class="slider-list">
             <li class="slider-item" id="slide1">
@@ -167,8 +167,8 @@
               <h2 class="visually-hidden">Рассылка</h2>
               <p class="subscription-text">Подпишитесь на&nbsp;нашу сладкую рассылку и&nbsp;будете всегда в&nbsp;курсе всего самого вкусного, что у&nbsp;нас происходит. Обещаем не&nbsp;спасить и&nbsp;не&nbsp;слать всякой ненужной ерунды. Честно =)</p>
               <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
-                <label for="subscription-email" class="visually-hidden">Электронная почта</label>
-                <input class="input" id="subscription-email" type="email" name="email" value="" placeholder="Электронная почта">
+                <label for="subscription-email" class="label label-hidden visually-hidden">Электронная почта</label>
+                <input class="input" id="subscription-email" type="email" name="email" value="" placeholder="Электронная почта" autofocus>
                 <button class="button" type="submit">Отправить</button>
               </form>
             </div>
@@ -251,16 +251,16 @@
         <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
           <div class="feedback-form-user-info">
             <p class="feedback-item">
-              <label class="visually-hidden" for="feedback-name" hidden>Ваше имя</label> <!-- Вроде hidden это не доступно, но зато должно работать -->
+              <label class="label label-hidden visually-hidden" for="feedback-name">Ваше имя</label>
               <input class="input" id="feedback-name" type="text" name="name" placeholder="Как вас зовут?">
             </p>
             <p class="feedback-item">
-              <label class="visually-hidden" for="feedback-email" hidden>Ваша электронная почта</label>
+              <label class="label label-hidden visually-hidden" for="feedback-email">Ваша электронная почта</label>
               <input class="input" id="feedback-email" type="email" name="email" placeholder="Ваша почта для ответа?">
             </p>
           </div>
           <p class="feedback-form-user-message feedback-item">
-            <label class="visually-hidden" for="feedback-message" hidden>Тект сообщения</label>
+            <label class="label label-hidden visually-hidden" for="feedback-message">Тект сообщения</label>
             <textarea class="textarea" name="message" id="feedback-message" cols="50" rows="4" placeholder="Напишите что-нибудь..."></textarea>
           </p>
           <button class="button" type="submit">Отправить</button>
