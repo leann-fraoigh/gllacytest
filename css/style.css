@@ -1125,7 +1125,7 @@ img {
 .catalog-item-price-weight::before {
   position: absolute;
   top: 6px;
-  left: 81px;
+  right: 42px;
 
   content: "";
   width: 31px;
