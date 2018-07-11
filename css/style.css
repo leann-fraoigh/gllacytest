@@ -1106,9 +1106,13 @@ img {
   left: -1px;
   top: 164px;
 
+  max-width: 265px;
+
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
 
   text-shadow: 0.5px 0.9px 3px rgba(49, 50, 53, 0.5);
 }
